@@ -1,0 +1,39 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "ToDo list with tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "start": "npx @hexlet/react-todo-app-with-backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MityaDementiy/frontend-testing-react-project-lvl2.git"
+  },
+  "keywords": [
+    "react",
+    "testing",
+    "library",
+    "jest",
+    "hexlet"
+  ],
+  "author": "Mitya Dementit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MityaDementiy/frontend-testing-react-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/MityaDementiy/frontend-testing-react-project-lvl2#readme",
+  "dependencies": {
+    "@hexlet/react-todo-app-with-backend": "^0.10.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^27.0.1",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jest": "^24.3.6",
+    "jest": "^27.0.1",
+    "jest-cli": "^27.0.1"
+  }
+}
