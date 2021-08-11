@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
@@ -11,8 +12,8 @@ describe('test app', () => {
   });
 
   it('should have two inputs', async () => {
-    const listInput = screen.getByRole('textbox', {  name: /new list/i});
-    const taskInput = screen.getByRole('textbox', {  name: /new task/i});
+    const listInput = screen.getByRole('textbox', { name: /new list/i });
+    const taskInput = screen.getByRole('textbox', { name: /new task/i });
 
     expect(listInput).toBeInTheDocument();
     expect(taskInput).toBeInTheDocument();
