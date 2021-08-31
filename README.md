@@ -8,3 +8,7 @@
 #### First step
 
 [![asciicast](https://asciinema.org/a/X26UKWwFcKYEzNGRS8zYSBYkt.svg)](https://asciinema.org/a/X26UKWwFcKYEzNGRS8zYSBYkt)
+
+#### Second step
+
+[![asciicast](https://asciinema.org/a/MpplURs9kX4uZ4VfcxpegkDo4.svg)](https://asciinema.org/a/MpplURs9kX4uZ4VfcxpegkDo4)

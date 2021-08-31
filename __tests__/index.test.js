@@ -11,11 +11,19 @@ describe('test app', () => {
     render(<App />);
   });
 
-  it('should have two inputs', async () => {
+  it('should display start interface', async () => {
+    const mainHeader = screen.getByText(/hexlet todos/i);
+    const listsHeader = screen.getByRole('heading', { name: /lists/i });
+    const tasksHeader = screen.getByRole('heading', { name: /tasks/i });
     const listInput = screen.getByRole('textbox', { name: /new list/i });
     const taskInput = screen.getByRole('textbox', { name: /new task/i });
+    const emptyTasksNotifier = screen.getByText(/Tasks list is empty/i);
 
+    expect(mainHeader).toBeVisible();
+    expect(listsHeader).toBeVisible();
+    expect(tasksHeader).toBeVisible();
     expect(listInput).toBeInTheDocument();
     expect(taskInput).toBeInTheDocument();
+    expect(emptyTasksNotifier).toBeInTheDocument();
   });
 });
